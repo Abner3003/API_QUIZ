@@ -1,0 +1,506 @@
+﻿<html>
+<head>
+    <meta http-equiv="" Content-Type"" content="" text/html; charset=UTF-8""/>
+
+    <title>Resumo Do Pedido</title>
+</head>
+<body>
+
+
+    <title>Resumo Do Pedido</title>
+    <table class="" contorno"">
+        <tbody>
+            <tr>
+                <td>
+                    <table class="" subtitulo"" width="" 100%"">
+                        <tbody>
+                            <tr>
+                                <td>Plataforma</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- Dados Plataformas -->
+                    <table width="" 100%"" class="" corpo"">
+                        <tbody>
+                            <tr>
+                                <td valign="" top""></td>
+                            </tr>"
+
+                            For Each item As Object In LISTA_DADOS(0)
+                            codigoHtml &= "
+                            <tr>
+                                <td Class="" labelNegrito"">Placa:</td>
+                                <td Class="" label"">" & CStr(item.DS_PLACA) & "</td>
+
+                                <td Class="" labelNegrito"">Chassi:</td>
+                                <td Class="" label"" colspan="" 3"">" & CStr(item.DS_CHASSI) & "</td>
+                            </tr>
+                            <tr>
+                                <td Class="" labelNegrito"">Marca: </td>
+                                <td Class="" label"">" & CStr(item.NM_MARCA) & "</td>
+
+                                <td Class="" labelNegrito"">Modelo:</td>
+                                <td Class="" label"" colspan="" 3"">" & CStr(item.NM_MODELO) & "</td>
+                            </tr>
+                            <tr>
+                                <td Class="" labelNegrito"">Cor:</td>
+                                <td Class="" label"">" & CStr(item.DS_COR) & " </td>
+
+                                <td Class="" labelNegrito"">Combustivel:</td>
+                                <td Class="" label"">" & CStr(item.DS_COMBUSTIVEL) & "</td>
+
+                                <td Class="" labelNegrito"">Ano/Fabricação:</td>
+                                <td Class="" label"">" & CStr(item.NU_ANO_FABRICACAO) & "</td>
+
+                                <td Class="" labelNegrito"">Ano/ Modelo:</td>
+                                <td Class="" label"">" & CStr(item.NU_ANO_MODELO) & "</td>
+                                <td Class="" labelNegrito"">Renavam:</td>
+                                <td Class="" label"">" & CStr(item.NR_RENAVAM) & "</td>
+                            </tr>"
+                            Next
+
+                            codigoHtml &= "
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <!-- Dados PROPRIETAIO -->
+            <tr>
+                <td>
+                    <table class="" subtitulo"" width="" 100%"">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Dados do Proprietário
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table width="" 100%"" cellspacing="" 0"" class="" corpo"">
+                        <tbody>
+
+                            <tr>
+                                <td align="" left"" class="" label"">
+                                    <span class="" labelNegrito"">Nome/Razão Social: </span>&nbsp;
+                                    <span id="" lblNomeProprietario"">CONSTRUTORA APICE LTDA</span>
+                                </td>
+                                <td align="" left"" class="" label"">
+                                    <span class="" labelNegrito"">Tipo do Cliente: </span>&nbsp;
+                                    <span id="" lblTipoProprietario"">Juridica</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="" left"" class="" label"">
+                                    <span class="" labelNegrito"">CPF/CNPJ: </span>&nbsp;
+                                    <span id="" lblCpfProprietario"">38.745.428/0001-36</span>
+                                </td>
+                                <td align="" left"" class="" label"">
+                                    <span class="" labelNegrito"">RG/Inscr. est: </span>&nbsp;
+                                    <span id="" lblRgProprietario"">ISENTO</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="" left"" class="" label"">
+                                    <span class="" labelNegrito"">Sexo: </span>&nbsp;
+                                    <span id="" lblSexo""></span>
+                                </td>
+                                <td align="" left"" class="" label"">
+                                    <span class="" labelNegrito"">Data de Nascimento: </span>&nbsp;
+                                    <span id="" lblDtNascimento""></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="" 2"">
+                                    <table border="" 0"" width="" 100%"" cellpadding="" 0"" cellspacing="" 0"">
+
+                                        <tbody>
+                                            <tr>
+                                                <td class="" labelNegrito"">
+                                                    Endereço:
+                                                </td>
+                                                <td colspan="" 5"" class="" label"">
+                                                    Avenida Cristina Gazire
+                                                    - 1115
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="" labelNegrito"">
+                                                    Bairro:
+                                                </td>
+                                                <td class="" label"">
+                                                    Praia
+                                                </td>
+                                                <td class="" labelNegrito"">
+                                                    Cidade:
+                                                </td>
+                                                <td class="" label"" colspan="" 3"">
+                                                    ITABIRA
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="" labelNegrito"">
+                                                    Estado:
+                                                </td>
+                                                <td class="" label"">
+                                                    MG
+                                                </td>
+                                                <td class="" labelNegrito"">
+                                                    CEP
+                                                </td>
+                                                <td class="" label"">
+                                                    35900680
+                                                </td>
+                                                <td class="" labelNegrito"">
+                                                    Tipo:
+                                                </td>
+                                                <td class="" label"">
+                                                    Faturamento
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <!-- Dados CLIENTE -->
+            <tr>
+                <td>
+                    <table class="" subtitulo"" width="" 100%"">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Dados do Cliente
+                                    <span id="" lblTitDadosCliente""> - Igual ao Proprietário</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </td>
+            </tr>
+            <!-- Dados CONTATOS -->
+            <tr>
+                <td>
+                    <table class="" subtitulo"" width="" 100%"">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Contatos em caso de Roubo/Emergência
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table width="" 100%"" cellspacing="" 0"" class="" corpo"">
+                        <tbody>
+                            <tr>
+                                <td class="" labelNegrito"">
+                                    Nome
+                                </td>
+                                <td class="" labelNegrito"">
+                                    Relacionamento
+                                </td>
+                                <td class="" labelNegrito"">
+                                    Comercial
+                                </td>
+                                <td class="" labelNegrito"">
+                                    Residencial
+                                </td>
+                                <td class="" labelNegrito"">
+                                    Celular
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="" label"">
+                                    ULHIANE
+                                </td>
+                                <td class="" label"">
+                                    RESPONSÁVEL
+                                </td>
+                                <td class="" label"">
+                                    (31)
+                                    985283622
+
+                                </td>
+                                <td class="" label""></td>
+                                <td class="" label"">
+                                    (31)
+                                    998989669
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="" label"">
+                                    JOSE MATHEUS
+                                </td>
+                                <td class="" label"">
+                                    SÓCIO(A)
+                                </td>
+                                <td class="" label""></td>
+                                <td class="" label""></td>
+                                <td class="" label"">
+                                    (31)
+                                    988741918
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="" label"">
+                                    DANILO ALVARENGA
+                                </td>
+                                <td class="" label"">
+                                    GERENTE DE FROTA
+                                </td>
+                                <td class="" label""></td>
+                                <td class="" label""></td>
+                                <td class="" label"">
+                                    (31)
+                                    971304749
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="" label"">
+                                    ULHIANE
+                                </td>
+                                <td class="" label"">
+                                    RESPONSÁVEL
+                                </td>
+                                <td class="" label"">
+                                    (31)
+                                    985283622
+
+                                </td>
+                                <td class="" label""></td>
+                                <td class="" label"">
+                                    (31)
+                                    998989669
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="" label"">
+                                    JOSE MATHEUS
+                                </td>
+                                <td class="" label"">
+                                    SÓCIO(A)
+                                </td>
+                                <td class="" label""></td>
+                                <td class="" label""></td>
+                                <td class="" label"">
+                                    (31)
+                                    988741918
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="" label"">
+                                    DANILO ALVARENGA
+                                </td>
+                                <td class="" label"">
+                                    GERENTE DE FROTA
+                                </td>
+                                <td class="" label""></td>
+                                <td class="" label""></td>
+                                <td class="" label"">
+                                    (31)
+                                    971304749
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <!-- AGENDAMENTO -->
+            <tr>
+                <td>
+                    <table class="" subtitulo"" width="" 100%"">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Detalhes Agendamento
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div align="" left"">
+                    </div><table width="" 100%"" cellspacing="" 0"" class="" corpo"">
+
+                        <tbody>
+                            <tr>
+                                <td class="" labelNegrito"">
+                                    Data Agendamento:
+                                </td>
+                                <td class="" label"">
+                                    20/08/2019 10:00:00
+                                </td>
+                                <td class="" labelNegrito"">
+                                    Hora:
+                                </td>
+                                <td class="" label"">
+                                    10:00:00
+                                </td>
+                                <td class="" labelNegrito"">
+                                    Local:
+                                </td>
+                                <td class="" label"">
+                                    Domiciliar
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="" labelNegrito"">
+                                    Loja:
+                                </td>
+                                <td class="" label"" colspan="" 4"">
+                                    LOJA INTERNA ITURAN
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="" labelNegrito"">
+                                    Operador:
+                                </td>
+                                <td class="" label"">
+                                    Thais Fernanda Alves Rodrigues
+                                </td>
+                                <td class="" labelNegrito"">
+                                    Data do Cadastro:
+                                </td>
+                                <td class="" label"" colspan="" 2"">
+                                    19/08/2019 13:29:56
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="" 6"">
+                                    <br></br>
+                                </td>
+                            </tr>
+
+
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <!-- Dados CLIENTE -->
+            <tr>
+                <td>
+                    <table class="" subtitulo"" width="" 100%"">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Local Instalação
+                                    <span id="" Label1""></span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table width="" 100%"" cellspacing="" 0"" class="" corpo"">
+
+                        <tbody>
+                            <tr>
+                                <td class="" labelNegrito"">
+                                    Endereço:
+                                </td>
+                                <td colspan="" 5"" class="" label"">
+                                    Avenida   Cristina Gazire
+                                    - 1115
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="" labelNegrito"">
+                                    Bairro:
+                                </td>
+                                <td class="" label"">
+                                    Praia
+                                </td>
+                                <td class="" labelNegrito"">
+                                    Cidade:
+                                </td>
+                                <td class="" label"" colspan="" 3"">
+                                    ITABIRA
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="" labelNegrito"">
+                                    Estado:
+                                </td>
+                                <td class="" label"">
+                                    MG
+                                </td>
+                                <td class="" labelNegrito"">
+                                    CEP
+                                </td>
+                                <td class="" label"">
+                                    35900680
+                                </td>
+                                <td class="" labelNegrito"">
+                                    Observações:
+                                </td>
+                                <td class="" label"">
+                                    (31) 3831-6767  Uiliane
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="" labelNegrito"">
+                                    Contato:
+                                </td>
+                                <td class="" label"">
+                                    Uiliane
+                                </td>
+                                <td class="" labelNegrito"">
+                                    Fone Contato:
+                                </td>
+                                <td class="" label"" colspan="" 3"">
+                                    (31)38316767
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+    <table class="" subtitulo"" width="" 100%"">
+        <tbody>
+            <tr>
+                <td>
+                    Serviços
+                    <span id="" Label2""></span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table width="" 100%"" cellspacing="" 2"" class="" corpo"">
+
+        <tbody>
+            <tr>
+                <td class="" labelNegrito"">
+                    Serviço:
+                </td>
+                <td class="" label"">
+                    Monitoramento GPRS
+                </td>
+            </tr>
+            <tr>
+                <td class="" labelNegrito"">
+                    Serviços Adicionais:
+                </td>
+                <td class="" label"">
+                    Google Maps Gratuito, Identificador de Motorista, Mobile Website Gratuito, Ituran Web Gratuito,
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>"
