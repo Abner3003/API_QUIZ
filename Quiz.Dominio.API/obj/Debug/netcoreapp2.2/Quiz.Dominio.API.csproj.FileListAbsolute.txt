@@ -1,0 +1,11 @@
+C:\PersonalRepositories\Quiz.API\Quiz.Dominio.API\bin\Debug\netcoreapp2.2\Quiz.Dominio.API.deps.json
+C:\PersonalRepositories\Quiz.API\Quiz.Dominio.API\bin\Debug\netcoreapp2.2\Quiz.Dominio.API.runtimeconfig.json
+C:\PersonalRepositories\Quiz.API\Quiz.Dominio.API\bin\Debug\netcoreapp2.2\Quiz.Dominio.API.runtimeconfig.dev.json
+C:\PersonalRepositories\Quiz.API\Quiz.Dominio.API\bin\Debug\netcoreapp2.2\Quiz.Dominio.API.dll
+C:\PersonalRepositories\Quiz.API\Quiz.Dominio.API\bin\Debug\netcoreapp2.2\Quiz.Dominio.API.pdb
+C:\PersonalRepositories\Quiz.API\Quiz.Dominio.API\obj\Debug\netcoreapp2.2\Quiz.Dominio.API.csprojAssemblyReference.cache
+C:\PersonalRepositories\Quiz.API\Quiz.Dominio.API\obj\Debug\netcoreapp2.2\Quiz.Dominio.API.csproj.CoreCompileInputs.cache
+C:\PersonalRepositories\Quiz.API\Quiz.Dominio.API\obj\Debug\netcoreapp2.2\Quiz.Dominio.API.AssemblyInfoInputs.cache
+C:\PersonalRepositories\Quiz.API\Quiz.Dominio.API\obj\Debug\netcoreapp2.2\Quiz.Dominio.API.AssemblyInfo.cs
+C:\PersonalRepositories\Quiz.API\Quiz.Dominio.API\obj\Debug\netcoreapp2.2\Quiz.Dominio.API.dll
+C:\PersonalRepositories\Quiz.API\Quiz.Dominio.API\obj\Debug\netcoreapp2.2\Quiz.Dominio.API.pdb

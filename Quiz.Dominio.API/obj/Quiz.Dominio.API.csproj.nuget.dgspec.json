@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\PersonalRepositories\\Quiz.API\\Quiz.Dominio.API\\Quiz.Dominio.API.csproj": {}
+  },
+  "projects": {
+    "C:\\PersonalRepositories\\Quiz.API\\Quiz.Dominio.API\\Quiz.Dominio.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\PersonalRepositories\\Quiz.API\\Quiz.Dominio.API\\Quiz.Dominio.API.csproj",
+        "projectName": "Quiz.Dominio.API",
+        "projectPath": "C:\\PersonalRepositories\\Quiz.API\\Quiz.Dominio.API\\Quiz.Dominio.API.csproj",
+        "packagesPath": "C:\\Users\\abner.albino\\.nuget\\packages\\",
+        "outputPath": "C:\\PersonalRepositories\\Quiz.API\\Quiz.Dominio.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\abner.albino\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.ituran.sp/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

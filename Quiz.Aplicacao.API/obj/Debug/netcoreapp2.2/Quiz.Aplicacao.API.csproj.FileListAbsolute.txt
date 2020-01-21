@@ -1,0 +1,17 @@
+C:\PersonalRepositories\Quiz.API\Quiz.Aplicacao.API\bin\Debug\netcoreapp2.2\Quiz.Aplicacao.API.deps.json
+C:\PersonalRepositories\Quiz.API\Quiz.Aplicacao.API\bin\Debug\netcoreapp2.2\Quiz.Aplicacao.API.runtimeconfig.json
+C:\PersonalRepositories\Quiz.API\Quiz.Aplicacao.API\bin\Debug\netcoreapp2.2\Quiz.Aplicacao.API.runtimeconfig.dev.json
+C:\PersonalRepositories\Quiz.API\Quiz.Aplicacao.API\bin\Debug\netcoreapp2.2\Quiz.Aplicacao.API.dll
+C:\PersonalRepositories\Quiz.API\Quiz.Aplicacao.API\bin\Debug\netcoreapp2.2\Quiz.Aplicacao.API.pdb
+C:\PersonalRepositories\Quiz.API\Quiz.Aplicacao.API\bin\Debug\netcoreapp2.2\Quiz.Dominio.API.dll
+C:\PersonalRepositories\Quiz.API\Quiz.Aplicacao.API\bin\Debug\netcoreapp2.2\Quiz.Dominio.API.pdb
+C:\PersonalRepositories\Quiz.API\Quiz.Aplicacao.API\obj\Debug\netcoreapp2.2\Quiz.Aplicacao.API.csprojAssemblyReference.cache
+C:\PersonalRepositories\Quiz.API\Quiz.Aplicacao.API\obj\Debug\netcoreapp2.2\Quiz.Aplicacao.API.csproj.CoreCompileInputs.cache
+C:\PersonalRepositories\Quiz.API\Quiz.Aplicacao.API\obj\Debug\netcoreapp2.2\Quiz.Aplicacao.API.RazorAssemblyInfo.cache
+C:\PersonalRepositories\Quiz.API\Quiz.Aplicacao.API\obj\Debug\netcoreapp2.2\Quiz.Aplicacao.API.RazorAssemblyInfo.cs
+C:\PersonalRepositories\Quiz.API\Quiz.Aplicacao.API\obj\Debug\netcoreapp2.2\Quiz.Aplicacao.API.AssemblyInfoInputs.cache
+C:\PersonalRepositories\Quiz.API\Quiz.Aplicacao.API\obj\Debug\netcoreapp2.2\Quiz.Aplicacao.API.AssemblyInfo.cs
+C:\PersonalRepositories\Quiz.API\Quiz.Aplicacao.API\obj\Debug\netcoreapp2.2\Quiz.Aplicacao.API.RazorTargetAssemblyInfo.cache
+C:\PersonalRepositories\Quiz.API\Quiz.Aplicacao.API\obj\Debug\netcoreapp2.2\Quiz.Aplicacao.API.csproj.CopyComplete
+C:\PersonalRepositories\Quiz.API\Quiz.Aplicacao.API\obj\Debug\netcoreapp2.2\Quiz.Aplicacao.API.dll
+C:\PersonalRepositories\Quiz.API\Quiz.Aplicacao.API\obj\Debug\netcoreapp2.2\Quiz.Aplicacao.API.pdb
