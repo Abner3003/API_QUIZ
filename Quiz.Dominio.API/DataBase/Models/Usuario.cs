@@ -11,5 +11,8 @@ namespace Quiz.Dominio.API.DataBase.Models
         public string DS_NOME { get; set; }
         public string DS_EMAIL { get; set; }
         public string DS_SENHA { get; set; }
-       }
+        public string Token { get; set; }
+
+        public string Role { get; set; }
+    }
 }

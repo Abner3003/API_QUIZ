@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Quiz.Dominio.API.DataBase.Models;
 
 namespace Quiz.Dominio.API.DataBase.Contexto
 {
@@ -8,5 +9,7 @@ namespace Quiz.Dominio.API.DataBase.Contexto
         {
 
         }
+
+        public DbSet<Usuario> Usuarios { get; set; }
     }
 }

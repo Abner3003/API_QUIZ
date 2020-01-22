@@ -9,3 +9,10 @@ C:\PersonalRepositories\Quiz.API\Quiz.Dominio.API\obj\Debug\netcoreapp2.2\Quiz.D
 C:\PersonalRepositories\Quiz.API\Quiz.Dominio.API\obj\Debug\netcoreapp2.2\Quiz.Dominio.API.AssemblyInfo.cs
 C:\PersonalRepositories\Quiz.API\Quiz.Dominio.API\obj\Debug\netcoreapp2.2\Quiz.Dominio.API.dll
 C:\PersonalRepositories\Quiz.API\Quiz.Dominio.API\obj\Debug\netcoreapp2.2\Quiz.Dominio.API.pdb
+C:\PersonalRepositories\Quiz.API\Quiz.Dominio.API\bin\Debug\netcoreapp2.2\Microsoft.IdentityModel.Tokens.dll
+C:\PersonalRepositories\Quiz.API\Quiz.Dominio.API\bin\Debug\netcoreapp2.2\System.IdentityModel.Tokens.Jwt.dll
+C:\PersonalRepositories\Quiz.API\Quiz.Dominio.API\bin\Debug\netcoreapp2.2\Microsoft.IdentityModel.Tokens.pdb
+C:\PersonalRepositories\Quiz.API\Quiz.Dominio.API\bin\Debug\netcoreapp2.2\Microsoft.IdentityModel.Tokens.xml
+C:\PersonalRepositories\Quiz.API\Quiz.Dominio.API\bin\Debug\netcoreapp2.2\System.IdentityModel.Tokens.Jwt.pdb
+C:\PersonalRepositories\Quiz.API\Quiz.Dominio.API\bin\Debug\netcoreapp2.2\System.IdentityModel.Tokens.Jwt.xml
+C:\PersonalRepositories\Quiz.API\Quiz.Dominio.API\obj\Debug\netcoreapp2.2\Quiz.Dominio.API.csproj.CopyComplete
