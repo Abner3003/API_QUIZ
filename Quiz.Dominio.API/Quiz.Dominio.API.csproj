@@ -16,6 +16,8 @@
 
   <ItemGroup>
     <Folder Include="Dtos\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Security\" />
     <Folder Include="Servicos\" />
   </ItemGroup>
 
